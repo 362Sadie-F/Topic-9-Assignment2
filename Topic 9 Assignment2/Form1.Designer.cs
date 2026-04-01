@@ -145,7 +145,7 @@
             // btnQuit
             // 
             this.btnQuit.BackColor = System.Drawing.SystemColors.ButtonShadow;
-            this.btnQuit.Location = new System.Drawing.Point(811, 738);
+            this.btnQuit.Location = new System.Drawing.Point(808, 759);
             this.btnQuit.Name = "btnQuit";
             this.btnQuit.Size = new System.Drawing.Size(75, 23);
             this.btnQuit.TabIndex = 12;
