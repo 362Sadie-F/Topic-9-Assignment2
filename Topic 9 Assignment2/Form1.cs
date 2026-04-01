@@ -55,8 +55,9 @@ namespace Topic_9_Assignment2
 
         private void btnQuit_Click(object sender, EventArgs e)
         {
-            if ()
+            
             Close();
         }
+
     }
 }
