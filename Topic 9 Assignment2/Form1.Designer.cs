@@ -44,7 +44,7 @@
             // 
             this.btnPlus.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.btnPlus.Font = new System.Drawing.Font("Lucida Calligraphy", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPlus.Location = new System.Drawing.Point(32, 131);
+            this.btnPlus.Location = new System.Drawing.Point(104, 193);
             this.btnPlus.Name = "btnPlus";
             this.btnPlus.Size = new System.Drawing.Size(119, 71);
             this.btnPlus.TabIndex = 0;
@@ -56,7 +56,7 @@
             // 
             this.btnMinus.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.btnMinus.Font = new System.Drawing.Font("Lucida Calligraphy", 50F, System.Drawing.FontStyle.Bold);
-            this.btnMinus.Location = new System.Drawing.Point(32, 296);
+            this.btnMinus.Location = new System.Drawing.Point(674, 197);
             this.btnMinus.Name = "btnMinus";
             this.btnMinus.Size = new System.Drawing.Size(119, 69);
             this.btnMinus.TabIndex = 1;
@@ -68,7 +68,7 @@
             // 
             this.btnTimes.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.btnTimes.Font = new System.Drawing.Font("Lucida Calligraphy", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTimes.Location = new System.Drawing.Point(32, 439);
+            this.btnTimes.Location = new System.Drawing.Point(104, 467);
             this.btnTimes.Name = "btnTimes";
             this.btnTimes.Size = new System.Drawing.Size(119, 71);
             this.btnTimes.TabIndex = 4;
@@ -80,7 +80,7 @@
             // 
             this.btnDivi.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.btnDivi.Font = new System.Drawing.Font("Lucida Calligraphy", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDivi.Location = new System.Drawing.Point(32, 593);
+            this.btnDivi.Location = new System.Drawing.Point(674, 467);
             this.btnDivi.Name = "btnDivi";
             this.btnDivi.Size = new System.Drawing.Size(119, 71);
             this.btnDivi.TabIndex = 6;
@@ -92,7 +92,7 @@
             // 
             this.lblPlus.AutoSize = true;
             this.lblPlus.Font = new System.Drawing.Font("Lucida Calligraphy", 44F);
-            this.lblPlus.Location = new System.Drawing.Point(204, 131);
+            this.lblPlus.Location = new System.Drawing.Point(276, 193);
             this.lblPlus.Name = "lblPlus";
             this.lblPlus.Size = new System.Drawing.Size(233, 76);
             this.lblPlus.TabIndex = 7;
@@ -103,7 +103,7 @@
             // 
             this.lblMinus.AutoSize = true;
             this.lblMinus.Font = new System.Drawing.Font("Lucida Calligraphy", 44F);
-            this.lblMinus.Location = new System.Drawing.Point(204, 296);
+            this.lblMinus.Location = new System.Drawing.Point(846, 197);
             this.lblMinus.Name = "lblMinus";
             this.lblMinus.Size = new System.Drawing.Size(214, 76);
             this.lblMinus.TabIndex = 8;
@@ -114,7 +114,7 @@
             // 
             this.lblTimes.AutoSize = true;
             this.lblTimes.Font = new System.Drawing.Font("Lucida Calligraphy", 44F);
-            this.lblTimes.Location = new System.Drawing.Point(204, 439);
+            this.lblTimes.Location = new System.Drawing.Point(276, 467);
             this.lblTimes.Name = "lblTimes";
             this.lblTimes.Size = new System.Drawing.Size(233, 76);
             this.lblTimes.TabIndex = 9;
@@ -125,7 +125,7 @@
             // 
             this.lblDivi.AutoSize = true;
             this.lblDivi.Font = new System.Drawing.Font("Lucida Calligraphy", 44F);
-            this.lblDivi.Location = new System.Drawing.Point(204, 593);
+            this.lblDivi.Location = new System.Drawing.Point(846, 467);
             this.lblDivi.Name = "lblDivi";
             this.lblDivi.Size = new System.Drawing.Size(253, 76);
             this.lblDivi.TabIndex = 10;
@@ -136,7 +136,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Lucida Calligraphy", 44F);
-            this.label1.Location = new System.Drawing.Point(275, 19);
+            this.label1.Location = new System.Drawing.Point(240, 19);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(482, 76);
             this.label1.TabIndex = 11;
@@ -145,7 +145,7 @@
             // btnQuit
             // 
             this.btnQuit.BackColor = System.Drawing.SystemColors.ButtonShadow;
-            this.btnQuit.Location = new System.Drawing.Point(808, 759);
+            this.btnQuit.Location = new System.Drawing.Point(1067, 791);
             this.btnQuit.Name = "btnQuit";
             this.btnQuit.Size = new System.Drawing.Size(75, 23);
             this.btnQuit.TabIndex = 12;
