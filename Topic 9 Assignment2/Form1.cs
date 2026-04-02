@@ -24,6 +24,7 @@ namespace Topic_9_Assignment2
             lblTimes.Visible = false;
             lblDivi.Visible = false;
             lblPlus.Text = "8 + 5 = " + (8 + 5);
+            btnPlus.Enabled = false;
         }
 
         private void btnMinus_Click(object sender, EventArgs e)
@@ -33,6 +34,7 @@ namespace Topic_9_Assignment2
             lblDivi.Visible = false;
             lblPlus.Visible = false;
             lblMinus.Text = "8 - 5 = " + (8 - 5);
+            btnMinus.Enabled = false;
         }
 
         private void btnTimes_Click(object sender, EventArgs e)
@@ -42,6 +44,7 @@ namespace Topic_9_Assignment2
             lblPlus.Visible = false;
             lblMinus.Visible = false;
             lblTimes.Text = "8 × 5 = " + (8 * 5);
+            btnTimes.Enabled = false;
         }
 
         private void btnDivi_Click(object sender, EventArgs e)
@@ -51,12 +54,21 @@ namespace Topic_9_Assignment2
             lblMinus.Visible = false;
             lblTimes.Visible = false;
             lblDivi.Text = "8 ÷ 5 = " + (8 / 5);
+            btnDivi.Enabled = false;
         }
 
         private void btnQuit_Click(object sender, EventArgs e)
         {
+            if (btnDivi.Enabled == false && btnTimes.Enabled == false && btnMinus.Enabled == false && btnPlus.Enabled == false)
+            {
+                btnQuit.Enabled = true;
+                Close();
+            }
+            else
+            {
+                btnQuit.Enabled = false;
+            }
             
-            Close();
         }
 
     }

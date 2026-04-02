@@ -38,7 +38,6 @@
             this.lblDivi = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.btnQuit = new System.Windows.Forms.Button();
-            this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.SuspendLayout();
             // 
             // btnPlus
@@ -154,16 +153,6 @@
             this.btnQuit.UseVisualStyleBackColor = false;
             this.btnQuit.Click += new System.EventHandler(this.btnQuit_Click);
             // 
-            // progressBar1
-            // 
-            this.progressBar1.BackColor = System.Drawing.SystemColors.ButtonShadow;
-            this.progressBar1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.progressBar1.Location = new System.Drawing.Point(51, 735);
-            this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(739, 23);
-            this.progressBar1.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
-            this.progressBar1.TabIndex = 13;
-            // 
             // AssignmentForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
@@ -171,7 +160,6 @@
             this.AutoSize = true;
             this.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.ClientSize = new System.Drawing.Size(1179, 850);
-            this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.btnQuit);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblDivi);
@@ -203,7 +191,6 @@
         private System.Windows.Forms.Label lblDivi;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnQuit;
-        private System.Windows.Forms.ProgressBar progressBar1;
     }
 }
 
